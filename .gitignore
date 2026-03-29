@@ -1,9 +1,9 @@
-# Virtual environment
+#venv
 venv/
 .venv/
 env/
 
-# Python
+#python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -14,17 +14,17 @@ __pycache__/
 dist/
 build/
 
-# Environment / secrets
+#keys
 .env
 .env.*
 !.env.example
 
-# IDE / editor
+#ide
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# OS
+#OS
 .DS_Store
 Thumbs.db
