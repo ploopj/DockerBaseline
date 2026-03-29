@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    image: dashboard:compose
+    ports:
+      - "8080:8080"
